@@ -665,7 +665,7 @@
 			]
 		},
 		"entity_type_def": {
-			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(entities) (\\S+)( replace)?\\s*{[ \n]*$",
+			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(entities) (\\S+)(( (?:replace|raw)))?\\s*{[ \n]*$",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control"
@@ -691,7 +691,7 @@
 			]
 		},
 		"function_tag_def": {
-			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(functions) (\\S+)( replace)?\\s*{[ \n]*$",
+			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(functions) (\\S+)(( (?:replace|raw)))?\\s*{[ \n]*$",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control"
@@ -740,7 +740,7 @@
 			]
 		},
 		"block_type_def": {
-			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(blocks) (\\S+)( replace)?\\s*{[ \n]*$",
+			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(blocks) (\\S+)(( (?:replace|raw)))?\\s*{[ \n]*$",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control"
@@ -766,7 +766,7 @@
 			]
 		},
 		"item_type_def": {
-			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(items) (\\S+)( replace)?\\s*{[ \n]*$",
+			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(items) (\\S+)(( (?:replace|raw)))?\\s*{[ \n]*$",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control"
@@ -792,7 +792,7 @@
 			]
 		},
 		"fluid_type_def": {
-			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(fluids) (\\S+)( replace)?\\s*{[ \n]*$",
+			"begin": "(?:^[ \t]*|(?<=}[ \t]*))(fluids) (\\S+)(( (?:replace|raw)))?\\s*{[ \n]*$",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control"
